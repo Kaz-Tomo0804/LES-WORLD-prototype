@@ -156,7 +156,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .button {
-    margin: 3% 0 0 65%;
+    /* margin: 3% 0 0 65%; */
     color: white;
     background-color: #25313C;
     border: 4px solid #fff;
