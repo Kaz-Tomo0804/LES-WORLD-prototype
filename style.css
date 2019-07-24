@@ -96,7 +96,7 @@ textarea::-webkit-input-placeholder {
 .form-footer a {
     color: #707070;
     text-decoration: none;
-     margin: 0 1em;
+    margin: 0 1em;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -105,141 +105,142 @@ textarea::-webkit-input-placeholder {
     border-bottom: 1px dotted #8c8c8c;
 }
 
+
 /* my page */
 
 .header-mypage {
-  display: flex;
-  background: #1D1D27; 
-  height: 150px;
+    display: flex;
+    background: #1D1D27;
+    height: 150px;
 }
 
 .pagetitle {
-  color: white;
-  width: 90%;
-  text-align: center;
-  padding:6% 0 0 12%;
-  font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding: 6% 0 0 12%;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .notification {
-  width: 10%;
-  padding:5% 0 0 0;
+    width: 10%;
+    padding: 5% 0 0 0;
 }
 
 .notification img {
-  width: 50px;
+    width: 50px;
 }
 
 .mypage {
-  background: #25313C;
-  object-fit: cover;
+    background: #25313C;
+    object-fit: cover;
 }
 
 .profile-pic {
-  width: 100%;
-  position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .name {
-  color: #fff;
-  background: linear-gradient(transparent, #25313C);
-  width: 98%;
-  text-align: center;
-  font-size: 67px;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  padding:20px 0;
-  position: absolute;
-  top: 32%;
+    color: #fff;
+    background: linear-gradient(transparent, #25313C);
+    width: 98%;
+    text-align: center;
+    font-size: 67px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+    position: absolute;
+    top: 32%;
 }
 
 .button {
-  margin: 3% 0 0 65%; 
-  color: white;
-  background-color: #25313C;
-  border: 4px solid #fff;
-  font-size: 2em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  padding: 20px 50px;
-  border-radius: 50px 50px;
+    /* margin: 3% 0 0 65%; */
+    color: white;
+    background-color: #25313C;
+    border: 4px solid #fff;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    /* padding: 20px 50px; */
+    /* border-radius: 50px 50px; */
 }
 
 .profile {
-  text-align: right;
-  margin-right: 7%;
+    text-align: right;
+    margin-right: 7%;
 }
 
 .profile h3 {
-  color: #14D2B8;
-  margin: 2.5% 0 0 0;
-  font-size: 3em;
+    color: #14D2B8;
+    margin: 2.5% 0 0 0;
+    font-size: 3em;
 }
 
 .profile h5 {
-  color: #707070;
-  font-size: 2.2em;
+    color: #707070;
+    font-size: 2.2em;
 }
 
 .profile p {
-  color: #fff;
-  font-size: 2.5em;
+    color: #fff;
+    font-size: 2.5em;
 }
 
 .sns-icon {
-  text-align: right;
-  margin-top: 3%;
+    text-align: right;
+    margin-top: 3%;
 }
 
 .twitter {
-  margin-right: 4%; 
+    margin-right: 4%;
 }
 
 .insta {
-  margin-right: 7%;
+    margin-right: 7%;
 }
 
 .map {
-  margin: 5% 0 3% 0;
-  width: 100%;
+    margin: 5% 0 3% 0;
+    width: 100%;
 }
 
 .footer-navi {
-  list-style-type:none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        grid-template-rows: 150px;
-  grid-auto-rows:40px;
-  background:#fff;
-  padding:0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 150px;
+    grid-auto-rows: 40px;
+    background: #fff;
+    padding: 0;
 }
 
 .footer-navi li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing:border-box;
-  transition: .5s;
-  color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: .5s;
+    color: #707070;
 }
 
 .footer-navi li a {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  width:100%;
-  height:100%;
-  color: #fff;
-  text-decoration: none;
-  font-family: 'Josefin Sans';
-  font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
 }
 
 .footer-navi img {
-  width: 140px;
+    width: 140px;
 }
 
-.footer-navi li: hover {
-  opacity: 30%;
+.footer-navi li :hover {
+    opacity: 30%;
 }
